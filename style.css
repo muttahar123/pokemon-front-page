@@ -1,0 +1,40 @@
+body{
+    background-image:url(images/pokemon.PNG);
+}
+.container{
+    margin: 20px;
+    padding-left: 70px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.table_parent {
+    width: 800px;
+    margin: 20px auto;
+    min-height: 400px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    grid-template-rows: repeat(3, minmax(100px, 200px));
+    /* display: flex; */
+    flex-wrap: wrap;
+}
+
+.table_parent>div>img {
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.table_parent>div:hover {
+    transform: scale(1.04) !important;
+}
+.cood{
+    padding-top: 2000px;
+}
+.box{
+     min-height: 20px;
+    width: 20px;
+    border: 1px solid rgb(251, 212, 212);
+    margin: 1px;
+   inline-size: 2px;
+   
