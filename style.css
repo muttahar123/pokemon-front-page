@@ -38,3 +38,14 @@ body{
     margin: 1px;
    inline-size: 2px;
    
+  @media (max-width:950px){
+    .table_parent{
+        display: flex;
+        grid-gap: 10px;
+        width: 90%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        justify-content: space-evenly;
+    }
+  }
